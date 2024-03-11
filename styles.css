@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.primary-color {
+  color: rgb(32, 33, 36);
+}
+
+.secondary-color {
+  color: rgb(95, 99, 104);
+}
+
+.tertiary-color {
+  color: rgb(1, 135, 95);
+}
+
+/* ICONS CSS */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 24;
+}
+
+.star_rate {
+    font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 28;
+}
+
+.info {
+    font-variation-settings: "FILL" 00, "wght" 400, "GRAD" 0, "opsz" 20;
+    font-size: 1rem;
+}
+
+.vertical_align_bottom {
+    font-variation-settings: "FILL" 00, "wght" 500, "GRAD" 0, "opsz" 20;
+    font-size: 1.2rem;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+/* MAIN CSS */
+.main {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 412px;
+}
+
+/* NAVBAR CSS */
+.navbar {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.store-info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.store-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.store-name {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.search-icon {
+  justify-self: end;
+}
+
+.three-dot-menu {
+  justify-self: end;
+}
+
+/* HEADER CSS */
+.header {
+  display: flex;
+  padding: 1rem;
+}
+
+.app-icon img {
+  max-width: 4.875rem;
+  max-height: 4.875rem;
+  border-radius: 1rem;
+}
+
+.app-info {
+  margin-left: 1.5rem;
+}
+
+.app-info-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.app-info-company {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* APP METRICS CSS */
+.pipe-divider {
+    min-width: 1px;
+    min-height: 2rem;
+    max-height: 2rem;
+    background-color: rgb(95, 99, 104);
+}
+
+.app-metrics {
+    display: flex;    
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    align-items: center;
+}
+
+.app-metrics::-webkit-scrollbar {
+    display: none;
+}
+
+.app-metrics-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width:120px;
+}
+
+.app-rating {
+    padding: 0 2rem 0 0.75rem;
+}
+
+.app-rating-flex1 {
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.app-rating-flex2 {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.app-size {
+    padding: 0 2rem 0 2rem;
+}
+
+.app-size-flex2 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.app-age-rating {
+    padding: 0 2rem 0 2rem;
+}
+
+.app-age-rating-flex2 {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.app-downloads {   
+    padding: 0 0.75rem 0 2rem;
+}
+
+.app-downloads-flex1 {
+    font-weight: 600;
+}
+
+.app-downloads-flex2 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
